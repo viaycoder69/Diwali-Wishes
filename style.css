@@ -1,0 +1,193 @@
+
+body {
+    margin: 0;
+    font-family: 'Salsa';
+}
+
+.jhalar{
+  width: 220px;
+  margin-bottom: -200px;
+}
+
+.hero-section {
+    min-height: 100vh;
+    /* background-color: #F99501; */
+    background-image: url(/images/orange-backdrop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+.paragraph-and-audio {
+  margin-left: 15rem;
+}
+.hero-section p{
+  font-size: 46px;
+  font-weight: 400px;
+  max-width: 560px;
+
+}
+
+.lakshmi-ganesha-section {
+  background-color: #F99501;
+  padding-block: 1em;
+  padding-inline: 1rem;
+}
+
+.lakshmi-ganesha-img{
+  max-width: 900px;
+  display: block;
+  margin-inline: auto;
+  width: 100%;
+  padding-inline: 1rem;
+}
+
+.horizontal-divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 800px;
+  margin-inline: auto;
+  margin-bottom: 2rem;
+}
+
+.horizontal-line {
+  height: 4px;
+  background-color: #FBD8A4;
+  width: 468px;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  background-color: #FBD8A4;
+  border-radius: 100%;
+  flex-shrink: 0;
+}
+
+.lakshmi-ganesha-section h2{
+  font-family: 'Style+Script',;
+  font-weight: 400;
+  font-size: 54px;
+  text-align: center;;
+
+}
+
+.white-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.white-card {
+  background-color: white;
+  max-width: 505px;
+  padding: 4rem;
+  border-radius: 22px;
+
+}
+
+.white-card p {
+  font-size: 2rem;
+}
+
+.little-girl{
+  max-width: 270px;
+  margin-left: -5rem;
+}
+
+.lakshmi-ganesha-card {
+  background-color: white ;
+  border-radius: 24px;
+  padding: 4rem;
+  max-width: 772px;
+  display: flex;
+  margin-inline: auto;
+}
+.lakshmi-ganesha-card img {
+  width: 50%;
+} 
+
+.thank-you{
+  width: 100%;
+  max-width: 900px;
+  margin-inline: auto;
+}
+
+.thank-you h2 {
+  text-align: left;
+}
+
+.My-name {
+  font-size: 24px;
+  text-align: right;
+}
+audio::-webkit-media-controls-play-button,
+     audio::-webkit-media-controls-panel {
+     background-color: #FBD8A4;
+     }
+
+     .audio-container {
+      background-color: #FBD8A4;
+      max-width: max-content;
+      border-radius: 45px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-left: 10px;
+     }
+
+     @media (max-width: 840px) {
+      .first-deepak{
+        display: block;
+        margin-left: auto;
+      }
+
+      .second-deepak {
+        display: none; 
+      }
+
+      .paragraph-and-audio{
+        margin-left: 1rem;
+      }
+      
+      .jhalar {
+        margin-bottom: 0;
+      }
+      .music-one{
+        display: none;
+      }
+      .music-two{
+        display: none;
+      }
+
+      .hero-section p{
+        font-size: 32px;
+      }
+      .white-card p {
+        font-size: 1rem;
+      }
+
+      .little-girl{
+        max-width: 270px;
+      }
+
+      .white-card {
+        padding-block: 1rem;
+        padding-left: 2rem;
+      }
+    }
+
+    @media (max-width: 540px){
+      .hero-section p{
+         font-size: 24px;
+      }
+
+      .first-deepak{
+        width: 100%;
+        max-width: 280px;
+      }
+
+      .lakshmi-ganesha-section h2 {
+        font-size: 32px;
+      }
+    }
